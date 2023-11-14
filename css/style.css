@@ -242,7 +242,7 @@ ol {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8);
+    background: linear-gradient(45deg, #58fdb8, #73edfd, #99eb78, #00ffd5, #7488eb, #865faf, #945b87);
     position: absolute;
     top: -10px;
     left:-10px;
@@ -3151,5 +3151,126 @@ body {
 	  -webkit-transform: translateX(0);
 	  transform: translateX(300px)
 	}
+  }
+  
+  body{
+	background: #ffffff;
+  }
+  
+  .container{
+	text-align:left;
+	width: 100%;
+	margin-left: 40px;
+	margin-right: 100px;
+	text-align: left;
+	margin-top: 10px;
+  }
+  
+  .container h11:nth-child(1) {
+	color: #355c7d;
+	font-family: 'Fira Code', monospace;
+	font-weight: 800;
+	font-size: 20px;
+	margin: 10px,5px,15px,20px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 170px;
+	animation: type 0s steps(40,end) forwards;
+  }
+  
+  .container h11:nth-child(1) {
+	opacity: 0;
+	font-family: "Work Sans", sans-serif;
+	margin: 0 auto auto auto;
+	background: linear-gradient(to right, #95f8f0, #72ccf6, #6cacc0);
+	font-weight: 500;
+	font-size: 50px;  
+	width: 430px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	overflow: hidden;
+	animation: shring-animation 2s steps(40,end) 1s forwards, blink .3s step-end infinite alternate;
+  }
+
+
+  
+ 
+  
+  @keyframes shring-animation {
+	0% {
+	  background-position: 0 0;
+	  opacity: 0;
+	  width: 0;
+	}
+	1% {
+	  background-position: 0 0;
+	  opacity: 1;
+	  border-right: 1px solid orange;
+	}
+	50% {
+	  background-position: 150px 0;
+	  opacity: 1;
+	  border-right: 1px solid orange;
+	}
+	100% {
+	  background-position: 400px 0;
+	  opacity: 1;
+	  border-right: 1px solid orange;
+	}
+  }
+  
+  @keyframes type {
+	0% {
+	  width: 0;
+	}
+	1%, 99%{
+	  border-right: 1px solid orange;
+	}
+	100%{
+	  border-right: none;
+	}
+  }
+  
+  @keyframes blink {
+	50% {
+	  border-color: transparent;
+	}
+  }
+  
+
+
+   body {
+   
+	background: #f0f0f0;
+	
+  }
+  .container{
+	text-align:left;
+	width: 100%;
+	margin-left: 40px;
+	margin-right: 100px;
+	text-align: center;
+	margin-top: 10px;
+  }
+.container h12:nth-child(1) {
+	
+
+	text-shadow: 0 0 5px #68b2e4, 0 0 15px #6a72b6, 0 0 20px #002fff, 0 0 40px #9195d8, 0 0 60px rgb(145, 166, 224), 0 0 10px #829ed1, 0 0 98px #0044ff;
+	
+	color: #1b1a47;
+
+	
+	font-weight: 500;
+	font-size: calc(30px);
+    line-height: calc(10px + 10vh);
+	font-family: "Sacramento", cursive;
+	margin: 10px,5px,15px,20px;
+	text-align: center;
+	animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+	
+	
+	
   }
   
