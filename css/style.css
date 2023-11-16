@@ -198,6 +198,7 @@ ol {
 	color: #ffffff;
 	text-align: center;
 	border-radius: 50px;
+	margin-bottom: 10px;
 	background-image: -webkit-gradient(linear, left top, right top, from(#010352), to(#03a3ff)), -webkit-gradient(linear, left top, right top, from(#010352), to(#03a3ff));
 	background-image: -o-linear-gradient(left,#010352 0%, #03a3ff 100%), -o-linear-gradient(left, #010352 0%, #03a3ff 100%);
 	background-image: linear-gradient(to right, #010352 0%, #03a3ff 100%), linear-gradient(to right, #010352 0%, #03a3ff 100%);
@@ -489,9 +490,10 @@ ol {
 
 .hero-section .hero-text span {
 	font-size: 16px;
-	color: #03a3ff;
+	color: #009cf7;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	font-weight: bold;
 }
 
 .hero-section .hero-text h2 {
@@ -500,7 +502,8 @@ ol {
 	line-height: 72px;
 	font-weight: 600;
 	margin-top: 24px;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
+	
 }
 
 /*---------------------
@@ -509,6 +512,7 @@ ol {
 
 .counter-section {
 	padding: 40px 0;
+	
 }
 
 .counter-section .counter-text span {
