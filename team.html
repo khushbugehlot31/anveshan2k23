@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Manup Template">
+    <meta name="keywords" content="Manup, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manup | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style type="text/css">
+    	.whos-speaking-area .speakers {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+}
+.whos-speaking-area .speakers:hover {
+    -webkit-box-shadow: 0 0 6px 5px #ddd;
+    box-shadow: 0 0 6px 5px #ddd;
+    border-radius: 6px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    border: 1px solid #dee2e6;
+}
+.whos-speaking-area .speakers .spk-img {
+    position: relative;
+}
+.whos-speaking-area .speakers .spk-img:before {
+    background: rgba(3, 152, 233, 0.8);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    z-index: 5;
+}
+.whos-speaking-area .speakers .spk-img:hover:before {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.whos-speaking-area .speakers .spk-img img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.whos-speaking-area .speakers .spk-img ul {
+    position: absolute;
+    display: inline-block;
+    top: 35%;
+    left: 40%;
+    width: 100px;
+    line-height: 3;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.whos-speaking-area .speakers .spk-img ul:before {
+    position: absolute;
+    content: "";
+    height: 110px;
+    width: 110px;
+    background: transparent;
+    top: -15%;
+    left: -15px;
+    border: 1px solid #fff;
+    -webkit-transform: rotate(44deg) scale(1.4);
+    -ms-transform: rotate(44deg) scale(1.4);
+    transform: rotate(44deg) scale(1.4);
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.whos-speaking-area .speakers .spk-img ul li {
+    display: inline-block;
+    margin: 0 3px;
+    -webkit-transform: perspective(50px) rotatey(80deg);
+    transform: perspective(50px) rotatey(80deg);
+    -webkit-transition: all 0.5s ease 0.2s;
+    -o-transition: all 0.5s ease 0.2s;
+    transition: all 0.5s ease 0.2s;
+    margin: 0 5px;
+}
+.whos-speaking-area .speakers .spk-img ul li a i.fa {
+    color: rgba(255, 78, 0, 0.8);
+    font-size: 18px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    width: 28px;
+    color: #fff;
+    height: 28px;
+    line-height: 21px;
+    text-align: center;
+}
+.whos-speaking-area .speakers .spk-img ul li a i.fa:hover {
+    color: #010352;
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(1) {
+    -webkit-transform: translate3d(-53px, -50px, 0);
+    transform: translate3d(-53px, -50px, 0);
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(2) {
+    -webkit-transform: translate3d(53px, -50px, 0);
+    transform: translate3d(53px, -50px, 0);
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(3) {
+    -webkit-transform: translate3d(-53px, 50px, 0);
+    transform: translate3d(-53px, 50px, 0);
+}
+.whos-speaking-area .speakers .spk-img ul li:nth-child(4) {
+    -webkit-transform: translate3d(53px, 50px, 0);
+    transform: translate3d(53px, 50px, 0);
+}
+.whos-speaking-area .speakers .spk-img:hover ul {
+    left: 35%;
+    opacity: 1;
+    z-index: 9;
+}
+.whos-speaking-area .speakers .spk-img:hover ul:before {
+    opacity: 1;
+    -webkit-transform: rotate(44deg) scale(1);
+    -ms-transform: rotate(44deg) scale(1);
+    transform: rotate(44deg) scale(1);
+}
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(1),
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(2),
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(3),
+.whos-speaking-area .speakers .spk-img:hover ul li:nth-child(4) {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.whos-speaking-area .speakers .spk-info {
+    text-align: center;
+    padding: 30px 0;
+}
+.whos-speaking-area .speakers .spk-info h3 {
+    color: #252525;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    text-transform: capitalize;
+}
+.whos-speaking-area .speakers .spk-info h3:hover {
+    color: #03a3ff;
+}
+.whos-speaking-area .speakers .spk-info p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #656565;
+}
+
+.whos-speaking-area-two .title-text h2 {
+    color: #fff;
+}
+
+.whos-speaking-area-two .speakers {
+    position: relative;
+    overflow: hidden;
+}
+.whos-speaking-area-two .speakers:hover img {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+.whos-speaking-area-two .speakers img {
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.whos-speaking-area-two .speakers .img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(3, 152, 233, 0.9);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.whos-speaking-area-two .speakers:hover .img-overlay {
+    opacity: 1;
+}
+.whos-speaking-area-two .speakers .name a {
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.whos-speaking-area-two .speakers .name a:hover {
+    color: #010352;
+}
+.whos-speaking-area-two .speakers:hover .name a {
+    bottom: 10%;
+}
+.whos-speaking-area-two .speakers .social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 23%;
+    left: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.whos-speaking-area-two .speakers .social-icons li {
+    margin-right: 10px;
+}
+.whos-speaking-area-two .speakers .social-icons li a {
+    color: #fff;
+}
+.whos-speaking-area-two .speakers .social-icons li a:hover {
+    color: #252525;
+}
+.whos-speaking-area-two .speakers:hover .social-icons {
+    left: 27px;
+}
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.mb50 {
+    margin-bottom: 50px;
+}
+body{margin-top:20px;
+background:#eee;
+}
+.our-team{
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-team:hover img{
+    right: 60%;
+}
+.our-team .team-content{
+    width: 80%;
+    height: 100%;
+    background: #fcfcfc;
+    padding: 20% 30px 0;
+    position: absolute;
+    top: 0;
+    right: -80%;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-team:hover .team-content{
+    right: 0;
+}
+.our-team .title {
+	font-size: 22px;
+	color: #010352;
+	margin: 0 0 5px 0;
+	font-weight: 500;
+}
+.our-team .post {
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.our-team .description{
+    font-size: 14px;
+    color: #191b26;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.our-team .social li:last-child{
+    margin-right: 0;
+}
+.our-team .social li a {
+	display: block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	border: 1px solid #eee;
+}
+.our-team .social li a:hover{ color: #fff; }
+.our-team .social li a.fa-facebook{ background: #3b5a9b;border: 1px solid #3b5a9b; }
+.our-team .social li a.fa-twitter{ background: #2baae1;border: 1px solid #2baae1; }
+.our-team .social li a.fa-youtube{ background: #c3181e;border: 1px solid #c3181e; }
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 50px; }
+}
+@media only screen and (max-width: 360px){
+    .team-content{ padding: 15% 15px 0; }
+    .our-team .social li{ margin-right: 0; }
+}
+a{
+text-decoration:none;    
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        
+                        <li><a href="#">Events</a>
+                            <ul class="dropdown">
+                                <li><a href="./Model.html">Model Competition</a></li>
+                                <li><a href="./Quiz.html">Quiz Competition</a></li>
+                                <li><a href="./Idea.html">Idea Presentation</a></li>
+                                <li><a href="./Poster.html">Poster Competition</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./team.html">Team</a></li>
+                        <li><a href="./contact.html">Contacts</a></li>
+                        <li><a href="./about-us.html">About</a></li>
+                    </ul>
+                </nav>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7usEWH_5YBm0bpSMAWEpsu5CmNqtuVsPYWkdZKV1KnJDk_A/viewform?pli=1" class="primary-btn top-btn"><i class="fa fa-user"></i> Register</a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Section Begin -->
+   <!-- <section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>About Us</h2>
+                        <div class="bt-option">
+                            <a href="index.html">Home</a>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- Breadcrumb Section End -->
+
+    <!-- About Section Begin -->
+   <!-- <section class="about-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Something About Us</h2>
+                        <p class="f-para">SVVV Anveshan stands out for its commitment to excellence, innovation, and inclusivity. Our team comprises individuals with diverse backgrounds, united by a common passion for science and education. We leverage this diversity to create a vibrant and enriching experience for participants and attendees alike.</p>
+                        <p>With a view to encourage, popularize and inculcate scientific temper among the children of the country, SVVV organizes national level science exhibition every year where children showcase their talents in science and mathematics and their applications in different areas related with our everyday life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <img src="img/anve1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h3>2023 Anveshan</h3>
+                        <p>ANVESHAN 2023 is a national Science exhibition event that provides a unique opportunity to the young brilliant minds of class 9th to 12th to showcase their conceptual understanding of science and out-of-box thinking abilities towards exploring prominent solutions to the existing and emerging problems of the modern world.
+                            Through a host of thematic events, Anveshan 2023, aims to promote scientific temper amongst children and looks for the active participation of the students presenting their scientific skills and systematic approach towards problem solving.
+                             </p>
+                        <ul>
+                                <li><span class="icon_check"></span> Water Sanitization</li>
+                                <li><span class="icon_check"></span> Clean India, Green India</li>
+                                <li><span class="icon_check"></span> Science and Technology for Global Sustainability</li>
+                                <li><span class="icon_check"></span> Science and Low Cost Technology for Development</li>
+                                <li><span class="icon_check"></span> General Category</li>
+                           
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+-->
+   
+    
+    <!-- Pricing Section Begin -->
+ <!--   <section class="pricing-section set-bg spad" data-setbg="img/pricing-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Ticket Pricing</h2>
+                        <p>Get your event ticket plan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+            
+                <div class="col-lg-4 col-md-8">
+                    <div class="price-item top-rated">
+                        <h4>Visitors</h4>
+                        <div class="pi-price">
+                            <h2><span></span>Free</h2>
+                        </div>
+                        <ul>
+                            <li>Explore the event</li>
+                            <li>Gain Knowledge</li>
+                            <li>Get aware about recent Technologies</li>
+                            <li>Engage with students</li>
+                            <li>Engage with Experts</li>
+                            <li>Give your valuable feedback</li>
+                            <li>Expand your Creativity</li>
+                        </ul>
+                        <a href="#" class="price-btn"> Do Visit<span class="arrow_right"></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="price-item top-rated">
+                        <div class="tr-tag">
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>Participants</h4>
+                        <div class="pi-price">
+                            <h2><span></span>Rs.50</h2>
+                        </div>
+                        <ul>
+                            <li>Showcase your Work</li>
+                            <li>Get aware about recent Technologies</li>
+                            <li>Engage with Experts</li>
+                            <li>Expand your Network</li>
+                            <li>Get Recognition and Awards</li>
+                            <li>Get Lunch Packets</li>
+                            <li>Expand your Creativity</li>
+                            <li>It's a great platform to gain Knowledge & Information</li>
+                        </ul>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7usEWH_5YBm0bpSMAWEpsu5CmNqtuVsPYWkdZKV1KnJDk_A/viewform?pli=1" class="price-btn"> Register Now <span class="arrow_right"></span></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->   <!-- Pricing Section End -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<div class="whos-speaking-area speakers pad100">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="section-title text-center">
+<div class="title-text mb50">
+<h2>People behind Anveshan</h2>
+</div>
+</div>
+</div>
+
+</div>
+<h2><center>VC</center></h2>
+<div class="row mb50">
+<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+<div class="speakers xs-mb30">
+<div class="spk-img">
+<img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="trainer-img" />
+<ul>
+<li>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-camera"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-facebook"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-life-ring"></i></a>
+</li>
+</ul>
+</div>
+<div class="spk-info">
+<h3>Harman Kardon</h3>
+<p>CEO,Mockplus</p>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+<div class="speakers xs-mb30">
+<div class="spk-img">
+<img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="trainer-img" />
+<ul>
+<li>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-camera"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-facebook"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-life-ring"></i></a>
+</li>
+</ul>
+</div>
+<div class="spk-info">
+<h3>Toni Duggan</h3>
+<p>GM, Pixelperfect</p>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+<div class="speakers xs-mb30">
+<div class="spk-img">
+<img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="trainer-img" />
+<ul>
+<li>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-camera"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-facebook"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-life-ring"></i></a>
+</li>
+</ul>
+</div>
+<div class="spk-info">
+<h3>Philipp Lahm</h3>
+<p>Digital photography</p>
+</div>
+</div>
+</div>
+
+<div class="col-xl-3 col-lg-3 d-md-none d-lg-block col-sm-12">
+<div class="speakers">
+<div class="spk-img">
+<img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="trainer-img" />
+<ul>
+<li>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-camera"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-facebook"></i></a>
+</li>
+<li>
+<a href="#"><i class="fa fa-life-ring"></i></a>
+</li>
+</ul>
+</div>
+<div class="spk-info">
+<h3>Lieke Martens</h3>
+<p>CEO, Animation Studios</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<!--faculty-->
+<div class="whos-speaking-area speakers pad100">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+    
+    </div>
+    
+    </div>
+    <h2><center>Faculty Coordinators</center></h2>
+    <div class="row mb50">
+    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+    <div class="speakers xs-mb30">
+    <div class="spk-img">
+    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="trainer-img" />
+    <ul>
+    <li>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-camera"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-life-ring"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="spk-info">
+    <h3>Harman Kardon</h3>
+    <p>CEO,Mockplus</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+    <div class="speakers xs-mb30">
+    <div class="spk-img">
+    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="trainer-img" />
+    <ul>
+    <li>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-camera"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-life-ring"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="spk-info">
+    <h3>Toni Duggan</h3>
+    <p>GM, Pixelperfect</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+    <div class="speakers xs-mb30">
+    <div class="spk-img">
+    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="trainer-img" />
+    <ul>
+    <li>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-camera"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-life-ring"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="spk-info">
+    <h3>Philipp Lahm</h3>
+    <p>Digital photography</p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-xl-3 col-lg-3 d-md-none d-lg-block col-sm-12">
+    <div class="speakers">
+    <div class="spk-img">
+    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="trainer-img" />
+    <ul>
+    <li>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-camera"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#"><i class="fa fa-life-ring"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="spk-info">
+    <h3>Lieke Martens</h3>
+    <p>CEO, Animation Studios</p>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+
+
+<!--members section-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<section id="team" class="team-area section-padding">
+<div class="container">
+
+<h2><center>Organizing Committee</center></h2>
+
+
+<div class="row">
+       <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+         <div class="our-team">
+           <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+              <div class="team-content">
+                  <h3 class="title">Marina Mojo</h3>
+                    <span class="post">Developer</span>
+                    <ul class="social">
+                      <li><a class="fa fa-facebook" href="#"></a></li>
+                      <li><a class="fa fa-twitter" href="#"></a></li>
+                      <li><a class="fa fa-youtube" href="#"></a></li>
+                    </ul>
+               </div>
+           </div>
+       </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+           <div class="our-team">
+              <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt>
+                  <div class="team-content">
+                      <h3 class="title">Ayoub Fennouni</h3>
+                      <span class="post">Logo Expert</span>
+                       <ul class="social">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-youtube" href="#"></a></li>
+                       </ul>
+                    </div>
+            </div>
+        </div>
+
+    
+        <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <div class="our-team">
+             <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt>
+                <div class="team-content">
+                  <h3 class="title">Mark Linomi</h3>
+                   <span class="post">Marketer</span>
+                    <ul class="social">
+                       <li><a class="fa fa-facebook" href="#"></a></li>
+                       <li><a class="fa fa-twitter" href="#"></a></li>
+                       <li><a class="fa fa-youtube" href="#"></a></li>
+                    </ul>
+                </div>
+           </div>
+       </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+             <div class="our-team">
+                   <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt>
+                      <div class="team-content">
+                          <h3 class="title">Amira Yerden</h3>
+                          <span class="post">UI/UX Designer</span>
+                            <ul class="social">
+                               <li><a class="fa fa-facebook" href="#"></a></li>
+                               <li><a class="fa fa-twitter" href="#"></a></li>
+                               <li><a class="fa fa-youtube" href="#"></a></li>
+                            </ul>
+                      </div>
+                </div>
+        </div>
+
+<!--row change-->
+
+<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+    <div class="our-team">
+      <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+         <div class="team-content">
+             <h3 class="title">Marina Mojo</h3>
+               <span class="post">Developer</span>
+               <ul class="social">
+                 <li><a class="fa fa-facebook" href="#"></a></li>
+                 <li><a class="fa fa-twitter" href="#"></a></li>
+                 <li><a class="fa fa-youtube" href="#"></a></li>
+               </ul>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+    <div class="our-team">
+       <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt>
+           <div class="team-content">
+               <h3 class="title">Ayoub Fennouni</h3>
+               <span class="post">Logo Expert</span>
+                <ul class="social">
+                 <li><a class="fa fa-facebook" href="#"></a></li>
+                 <li><a class="fa fa-twitter" href="#"></a></li>
+                 <li><a class="fa fa-youtube" href="#"></a></li>
+                </ul>
+             </div>
+     </div>
+ </div>
+
+
+
+ <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+    <div class="our-team">
+       <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt>
+          <div class="team-content">
+            <h3 class="title">Mark Linomi</h3>
+             <span class="post">Marketer</span>
+              <ul class="social">
+                 <li><a class="fa fa-facebook" href="#"></a></li>
+                 <li><a class="fa fa-twitter" href="#"></a></li>
+                 <li><a class="fa fa-youtube" href="#"></a></li>
+              </ul>
+          </div>
+     </div>
+ </div>
+
+
+ <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+    <div class="our-team">
+          <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt>
+             <div class="team-content">
+                 <h3 class="title">Amira Yerden</h3>
+                 <span class="post">UI/UX Designer</span>
+                   <ul class="social">
+                      <li><a class="fa fa-facebook" href="#"></a></li>
+                      <li><a class="fa fa-twitter" href="#"></a></li>
+                      <li><a class="fa fa-youtube" href="#"></a></li>
+                   </ul>
+             </div>
+       </div>
+</div>
+
+
+<!--row change-->
+
+<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+    <div class="our-team">
+      <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+         <div class="team-content">
+             <h3 class="title">Marina Mojo</h3>
+               <span class="post">Developer</span>
+               <ul class="social">
+                 <li><a class="fa fa-facebook" href="#"></a></li>
+                 <li><a class="fa fa-twitter" href="#"></a></li>
+                 <li><a class="fa fa-youtube" href="#"></a></li>
+               </ul>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+    <div class="our-team">
+       <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt>
+           <div class="team-content">
+               <h3 class="title">Ayoub Fennouni</h3>
+               <span class="post">Logo Expert</span>
+                <ul class="social">
+                 <li><a class="fa fa-facebook" href="#"></a></li>
+                 <li><a class="fa fa-twitter" href="#"></a></li>
+                 <li><a class="fa fa-youtube" href="#"></a></li>
+                </ul>
+             </div>
+     </div>
+ </div>
+
+
+
+ <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+    <div class="our-team">
+       <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt>
+          <div class="team-content">
+            <h3 class="title">Mark Linomi</h3>
+             <span class="post">Marketer</span>
+              <ul class="social">
+                 <li><a class="fa fa-facebook" href="#"></a></li>
+                 <li><a class="fa fa-twitter" href="#"></a></li>
+                 <li><a class="fa fa-youtube" href="#"></a></li>
+              </ul>
+          </div>
+     </div>
+ </div>
+
+
+ <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+    <div class="our-team">
+          <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt>
+             <div class="team-content">
+                 <h3 class="title">Amira Yerden</h3>
+                 <span class="post">UI/UX Designer</span>
+                   <ul class="social">
+                      <li><a class="fa fa-facebook" href="#"></a></li>
+                      <li><a class="fa fa-twitter" href="#"></a></li>
+                      <li><a class="fa fa-youtube" href="#"></a></li>
+                   </ul>
+             </div>
+       </div>
+</div>
+
+
+<!--row change-->
+
+
+     </div>
+
+     
+
+     
+
+ </div>
+   
+
+
+</section>
+<br>
+<br>
+
+
+
+<!--DEVELOPERS SECTION-->
+<section id="team" class="team-area section-padding">
+    <div class="container">
+    
+    <h2><center>Web Developers</center></h2>
+    
+    
+    <div class="row">
+    <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+    <div class="our-team">
+    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+    <div class="team-content">
+    <h3 class="title">Marina Mojo</h3>
+    <span class="post">Developer</span>
+    <ul class="social">
+    <li><a class="fa fa-facebook" href="#"></a></li>
+    <li><a class="fa fa-twitter" href="#"></a></li>
+    <li><a class="fa fa-youtube" href="#"></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+    <div class="our-team">
+    <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt>
+    <div class="team-content">
+    <h3 class="title">Ayoub Fennouni</h3>
+    <span class="post">Logo Expert</span>
+    <ul class="social">
+    <li><a class="fa fa-facebook" href="#"></a></li>
+    <li><a class="fa fa-twitter" href="#"></a></li>
+    <li><a class="fa fa-youtube" href="#"></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+    <div class="our-team">
+    <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt>
+    <div class="team-content">
+    <h3 class="title">Mark Linomi</h3>
+    <span class="post">Marketer</span>
+    <ul class="social">
+    <li><a class="fa fa-facebook" href="#"></a></li>
+    <li><a class="fa fa-twitter" href="#"></a></li>
+    <li><a class="fa fa-youtube" href="#"></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+    <div class="our-team">
+    <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt>
+    <div class="team-content">
+    <h3 class="title">Amira Yerden</h3>
+    <span class="post">UI/UX Designer</span>
+    <ul class="social">
+    <li><a class="fa fa-facebook" href="#"></a></li>
+    <li><a class="fa fa-twitter" href="#"></a></li>
+    <li><a class="fa fa-youtube" href="#"></a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <!-- Contact Section Begin -->
+  <!--  <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2>Location</h2>
+                        <p>Get directions to our event center</p>
+                    </div>
+                    <div class="cs-text">
+                        <div class="ct-address">
+                            <span>Address:</span>
+                            <p>Shri Vaishnav Vidyapeeth Vishwavidyalaya,<br/>Ujjain Road Gram Baroli, Indore(M.P)</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>Phone:</span>
+                                (+91)7489413988
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                anveshan@svvv.edu.in
+                            </li>
+                        </ul>
+                        <div class="ct-links">
+                            <span>Website:</span>
+                            <p>https://anveshan.svvv.edu.in/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cs-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7636.259560517481!2d75.84701242469451!3d22.82311633449607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3963039c587a8091%3A0x206d00d7a5e4afb3!2sShri%20Vaishnav%20Vidyapeeth%20Vishwavidyalaya!5e0!3m2!1sen!2sin!4v1699384032495!5m2!1sen!2sin"" height="400" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+-->  <!-- Contact Section End -->
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="partner-logo owl-carousel">
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <img src="img/partner-logo/logo-1.png" alt="">
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <img src="img/partner-logo/logo-2.png" alt="">
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <img src="img/partner-logo/logo-3.png" alt="">
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <img src="img/partner-logo/logo-4.png" alt="">
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <img src="img/partner-logo/logo-5.png" alt="">
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <img src="img/partner-logo/logo-6.png" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-text">
+                        <div class="ft-logo">
+                            <a href="#" class="footer-logo"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./schedule.html">Schedule</a></li>
+                            <li><a href="./team.html">Team</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./about-us.html">About</a></li>
+                        </ul>
+                        <div class="copyright-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | by <a
+                                href="https://www.svvv.edu.in/" target="_blank">SVVV</a>
+                           
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="ft-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://instagram.com/anveshan_svvv?igshid=MXBxNm1uYnFxcXJ4eg=="><i
+                                class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+	
+    </script>
+   </body>
+
+</html>
