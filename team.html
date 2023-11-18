@@ -108,9 +108,7 @@ background:#eee;
     height: 48px;
     width: 80px;
 }
-.our-team .post {
-    font-size: 20px;
-}
+
 .our-team .social li a {
 	display: block;
 	width: 15px;
@@ -174,6 +172,35 @@ text-decoration:none;
     position: relative;
     text-transform: capitalize;
 }
+.team-category{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+#general .team-category {
+  color: white;
+}
+hr{
+width: 10%;
+height: 5px;
+border: none;
+background: rgb(188, 1, 1);
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.team-box {
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.team-box .team-category{
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
     </style>
 </head>
 
@@ -233,9 +260,13 @@ text-decoration:none;
 <!--members section-->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 <section id="team" class="team-area section-padding">
-<div class="container">
-
-<h2><center>Organizing Committee</center></h2>
+<div class="container">    
+<div class="hero-cont">
+    <h2 class="team-category">The Faculty</h2>    
+    <hr>
+</div>
+    <h2 class="team-category">Organizing Committee</h2>    
+    <hr>
 
 
 <div class="row">
@@ -456,9 +487,8 @@ text-decoration:none;
 <!--DEVELOPERS SECTION-->
 <section id="team" class="team-area section-padding">
     <div class="container">
-    
-    <h2><center>Web Developers</center></h2>
-    
+        <h2 class="team-category">Volunteer</h2>    
+        <hr>
     
     <div class="row">
     <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
