@@ -33,6 +33,11 @@ ul {
     padding: 0;
     outline: none;
 }
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 .mb50 {
     margin-bottom: 50px;
 }
@@ -71,7 +76,7 @@ background:#eee;
     right: 0;
 }
 .our-team .title {
-	font-size: 22px;
+	font-size: 15px;
 	color: #010352;
 	margin: 0 0 5px 0;
 	font-weight: 500;
@@ -94,8 +99,9 @@ background:#eee;
     margin: 0;
     list-style: none;
 }
+
 .our-team .team-title h3{
-    font-size: 10px;
+    font-size: 5px;
 }
 .our-team .social li{
     display: inline-block;
@@ -145,6 +151,10 @@ background:#eee;
     transition: all 0.3s ease-in-out 0s;
     border: 1px solid #eee;
 }
+.our-team .title {
+	font-size: 30px;
+}
+.our-team .post {font-size: 15px;}
 }
 @media only screen and (max-width: 360px){
     .team-content{ padding: 15% 15px 0; }
@@ -153,6 +163,9 @@ background:#eee;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;}
+    .our-team .title {
+	font-size: 30px;}
+    .our-team .post {font-size: 15px;}
 }
 a{
 text-decoration:none;    
@@ -167,10 +180,6 @@ text-decoration:none;
 
 .section-title h2 {
     font-size: 45px;
-    font-weight: 600;
-    margin-top: 0;
-    position: relative;
-    text-transform: capitalize;
 }
 .team-category{
   color: black;
@@ -264,7 +273,41 @@ margin-bottom: 20px;
 <div class="hero-cont">
     <h2 class="team-category">The Faculty</h2>    
     <hr>
+    <div class="row">
+        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+          <div class="our-team">
+            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+               <div class="team-content">
+                   <h3 class="title">Marina Mojo</h3>
+                     <span class="post">Developer</span>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="row">
+        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="our-team">
+              <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+                 <div class="team-content">
+                     <h3 class="title">Marina Mojo</h3>
+                       <span class="post">Developer</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="our-team">
+              <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt>
+                 <div class="team-content">
+                     <h3 class="title">Marina Mojo</h3>
+                       <span class="post">Developer</span>
+                  </div>
+              </div>
+          </div>
+    </div>  
 </div>
+<h2 class="team-category">Coordiantor</h2>    
+    <hr>
+
     <h2 class="team-category">Organizing Committee</h2>    
     <hr>
 
